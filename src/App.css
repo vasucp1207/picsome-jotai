@@ -1,0 +1,73 @@
+.photo {
+    height: 200px;
+    width: 200px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.cart-img {
+    height: 200px;
+    width: 400px;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+}
+
+.cart-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.msg {
+    align-self: center;
+}
+
+.photo-wrap {
+    position: relative;
+}
+
+.photo-cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    cursor: pointer;
+}
+
+.add-icon {
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    cursor: pointer;
+}
+
+.cart-icon, .delete-icon {
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+}
+
+.header-cont {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: coral;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
