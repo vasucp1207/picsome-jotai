@@ -1,15 +1,14 @@
 import { useAtom } from 'jotai';
 import './App.css';
-import { allPhotos, getAllPhotos } from './hooks/main';
+import { getAllPhotos } from './hooks/atoms';
 import React from 'react';
 import Home from './pages/Home';
-import Header from './components/Header';
+import Header from './component/Header';
 import { Routes, Route } from "react-router-dom";
 import CartItmes from './pages/CartItmes';
 
 function App() {
   const [, getAllPhotosAtom] = useAtom(getAllPhotos)
-  const [allPhotosAtom] = useAtom(allPhotos)
 
   React.useEffect(() => {
     getAllPhotosAtom()

@@ -1,7 +1,7 @@
 import React from 'react'
-import { allPhotos } from '../hooks/main'
+import { allPhotos } from '../hooks/atoms'
 import { useAtom } from 'jotai'
-import Image from '../components/Image'
+import Image from '../component/Image'
 
 function Home() {
   const [allPhotosAtom] = useAtom(allPhotos)

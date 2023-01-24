@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineHeart, AiFillHeart, AiOutlineShoppingCart } from 'react-icons/ai'
 import { BsFillCartCheckFill } from 'react-icons/bs'
-import { addToCartAtom, toogleAtom, cartItems, removeCartAtom } from '../hooks/main'
+import { addToCartAtom, toogleAtom, cartItems, removeCartAtom } from '../hooks/atoms'
 import { useAtom } from 'jotai'
 
 function Image({photo}) {

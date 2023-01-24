@@ -1,5 +1,5 @@
 import React from 'react'
-import { cartItems, removeCartAtom } from '../hooks/main'
+import { cartItems, removeCartAtom } from '../hooks/atoms'
 import { useAtom } from 'jotai'
 import { AiFillDelete } from 'react-icons/ai'
 
